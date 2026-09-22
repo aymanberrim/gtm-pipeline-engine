@@ -1,0 +1,41 @@
+{
+  "source": "https://github.com/swan-gtm/gtm-skills",
+  "license": "MIT",
+  "install": "npx skills add swan-gtm/gtm-skills --skill <name>",
+  "note": "Upstream skills fill the stages where the community already did the work well. Each entry says which stage it serves and why it was picked over the alternatives in the library. Attribution stays with the author.",
+  "skills": [
+    { "name": "move-gtm-diagnostic", "author": "sangram-vajre", "stage": "1-target", "why": "Run before any build: the 4-question MOVE audit tells you whether the company is at problem-market, product-market or platform-market fit, which decides how aggressive the channel can be." },
+    { "name": "market-finder", "author": "uri-knorovich", "stage": "1-target", "why": "Enumerates every business of a type in a geography from directories and registries, with a coverage audit. The account universe for the chosen country." },
+    { "name": "icp-matrix-builder", "author": "tanyo-gochev", "stage": "1-target", "why": "Turns the ICP into a scored decision rule the list build can be filtered against, instead of a paragraph nobody applies." },
+    { "name": "competitor-positioning", "author": "alon-goldenberg", "stage": "1-target", "why": "Messaging matrix and white-space map of the local competitors, with battlecard inputs. Feeds the positioning of the entry message." },
+    { "name": "battlecard", "author": "ido-goldberg", "stage": "1-target", "why": "Compact battlecard format (win conditions, objections, talk tracks) that the demo-booking call reuses." },
+    { "name": "ai-pricing-model-picker", "author": "manny-medina", "stage": "1-target", "why": "For AI-agent products: per agent, per action, per workflow or per outcome, with anchors. Pricing is kept out of cold outreach but must exist before the first demo." },
+
+    { "name": "tam-builder", "author": "tanyo-gochev", "stage": "2-source", "why": "Company universe deduplicated to one row per company with size band, geography and fit class, plus an honest coverage report. Companies only; people come next." },
+    { "name": "list-architect", "author": "alex-vacca", "stage": "2-source", "why": "The reference on sourcing, boolean search, qualification, contact finding and deduplication, with 19 reference pages. Used for the mechanics once the authority model has said who to look for." },
+    { "name": "signal-sourcer", "author": "alex-vacca", "stage": "2-source", "why": "Buying-signal taxonomy and signal-to-play mapping (hiring, funding, job change, tech change). Supplies the Intent dimension of the scoring rubric." },
+    { "name": "hygiene-gated-outbound", "author": "ryan-iyengar", "stage": "2-source", "why": "Launch-readiness gate on duplicates, ownership gaps and stale data before any segment goes out. Protects the single-source-of-truth invariant." },
+    { "name": "never-guess-an-email", "author": "lucas-godtfredsen", "stage": "2-source", "why": "Routing decision when no verified address exists: send, other channel, or unreachable and say so. Pattern-guessing is banned in this engine." },
+
+    { "name": "cold-email-strategist", "author": "alex-vacca", "stage": "4-engage", "why": "Deliverability, domain warm-up, SPF/DKIM/DMARC, sequence structure and copy frameworks, 25 reference pages. The infrastructure layer under every sequence." },
+    { "name": "multichannel-campaign-builder", "author": "erwann-lefevre", "stage": "4-engage", "why": "Writes the full email plus social sequence from three candidate angles and self-checks against a copy bar. Takes the group template from segment-then-write and produces every touch." },
+    { "name": "cold-email-preflight", "author": "imad-badreddine", "stage": "4-engage", "why": "Pre-send checklist on copy, links, merge fields and infrastructure. Nothing goes out without it." },
+    { "name": "trigger-based-outbound", "author": "ryan-iyengar", "stage": "4-engage", "why": "Qualifies a single detected account event into send, nurture or skip, with a trigger-grounded opener. Used for signal-driven sends outside the resource-magnet flow." },
+
+    { "name": "handle-reply", "author": "ido-goldberg", "stage": "5-convert", "why": "Classifies inbound replies and drafts the response or stop action without auto-sending. Pairs with the six-category reply table in zero-lead-lost." },
+    { "name": "pre-call-script", "author": "dyanesh-perumal", "stage": "5-convert", "why": "Builds the call from the account's research: opener, KPI-tied relevance frame, proof point, one ask, the two or three objections this prospect will raise. Complements demo-booking-call for cold dials." },
+
+    { "name": "discovery-to-demo-bridge", "author": "gal-aga", "stage": "6-close", "why": "Turns discovery notes into a demo that proves value instead of a feature tour. The step right after the booked demo." },
+    { "name": "meddpicc-gap-audit", "author": "amit-rotstein", "stage": "6-close", "why": "Scores what is actually missing on a deal from transcripts and threads. The qualification backbone for long-cycle robotics and enterprise AI deals." },
+    { "name": "multi-thread-deals", "author": "ido-goldberg", "stage": "6-close", "why": "Finds single-threaded deals, names the missing stakeholders and hands contact-specific next steps back to outreach." },
+    { "name": "trial-poc-conversion", "author": "rutger-katz", "stage": "6-close", "why": "Trials and pilots that end in a decision: success criteria contracted before access, activation instrumented, conversion clock. Essential for robots on the floor and agents in production." },
+    { "name": "roi-business-case", "author": "gal-aga", "stage": "6-close", "why": "A business case the buyer's finance team believes, with ranges instead of one dream number. Uses the per-unit cost numbers from the battlecard." },
+    { "name": "mutual-action-plan-builder", "author": "gal-aga", "stage": "6-close", "why": "Buyer-evidence milestones co-owned by the buying committee, not seller activities. The instrument for security review, procurement and works-council steps." },
+    { "name": "procurement-navigation", "author": "rutger-katz", "stage": "6-close", "why": "Security review, legal redlines and vendor onboarding run in parallel on a mutual close plan. The compliance pack from regulatory-to-selling-points is what it ships." },
+
+    { "name": "onboarding-activation", "author": "rutger-katz", "stage": "7-learn", "why": "Carries the why-they-bought evidence across signature to first realised value on a clock. Where the first European reference is made." },
+    { "name": "win-loss-program", "author": "rutger-katz", "stage": "7-learn", "why": "Evidence-based win/loss from transcripts and buyer interviews. Its output feeds the monthly ICP and battlecard refresh in the operating cadence." },
+    { "name": "partner-channel-operations", "author": "rutger-katz", "stage": "7-learn", "why": "Partner programme, enablement, co-selling and deal registration. Activated when the entry-mode selector chose an integrator or distributor route." },
+    { "name": "expansion-revenue-architect", "author": "rutger-katz", "stage": "7-learn", "why": "NRR/GRR diagnostic and expansion motion once the first accounts are live. The right side of the funnel the channel eventually feeds." }
+  ]
+}
